@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-15T11:11:21.974523+00:00",
+  "title": "Design System: Sing Reverse",
+  "extensions": {
+    "colorMeta": {
+      "cobalt": {
+        "role": "primary",
+        "displayName": "Cobalt",
+        "tonalRamp": [
+          "oklch(15% 0.2197 266.36)",
+          "oklch(26% 0.2197 266.36)",
+          "oklch(38% 0.2197 266.36)",
+          "oklch(49% 0.2197 266.36)",
+          "oklch(61% 0.2197 266.36)",
+          "oklch(72% 0.2197 266.36)",
+          "oklch(84% 0.2197 266.36)",
+          "oklch(95% 0.2197 266.36)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "ice": {
+        "role": "neutral",
+        "displayName": "Ice",
+        "tonalRamp": [
+          "oklch(15% 0.0122 276.10)",
+          "oklch(26% 0.0122 276.10)",
+          "oklch(38% 0.0122 276.10)",
+          "oklch(49% 0.0122 276.10)",
+          "oklch(61% 0.0122 276.10)",
+          "oklch(72% 0.0122 276.10)",
+          "oklch(84% 0.0122 276.10)",
+          "oklch(95% 0.0122 276.10)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0713 265.42)",
+          "oklch(26% 0.0713 265.42)",
+          "oklch(38% 0.0713 265.42)",
+          "oklch(49% 0.0713 265.42)",
+          "oklch(61% 0.0713 265.42)",
+          "oklch(72% 0.0713 265.42)",
+          "oklch(84% 0.0713 265.42)",
+          "oklch(95% 0.0713 265.42)"
+        ]
+      },
+      "muted-ink": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0545 266.12)",
+          "oklch(26% 0.0545 266.12)",
+          "oklch(38% 0.0545 266.12)",
+          "oklch(49% 0.0545 266.12)",
+          "oklch(61% 0.0545 266.12)",
+          "oklch(72% 0.0545 266.12)",
+          "oklch(84% 0.0545 266.12)",
+          "oklch(95% 0.0545 266.12)"
+        ]
+      },
+      "pale-blue": {
+        "role": "primary",
+        "displayName": "Pale Blue",
+        "tonalRamp": [
+          "oklch(15% 0.0334 272.79)",
+          "oklch(26% 0.0334 272.79)",
+          "oklch(38% 0.0334 272.79)",
+          "oklch(49% 0.0334 272.79)",
+          "oklch(61% 0.0334 272.79)",
+          "oklch(72% 0.0334 272.79)",
+          "oklch(84% 0.0334 272.79)",
+          "oklch(95% 0.0334 272.79)"
+        ]
+      },
+      "deep-blue": {
+        "role": "primary",
+        "displayName": "Deep Blue",
+        "tonalRamp": [
+          "oklch(15% 0.1480 266.18)",
+          "oklch(26% 0.1480 266.18)",
+          "oklch(38% 0.1480 266.18)",
+          "oklch(49% 0.1480 266.18)",
+          "oklch(61% 0.1480 266.18)",
+          "oklch(72% 0.1480 266.18)",
+          "oklch(84% 0.1480 266.18)",
+          "oklch(95% 0.1480 266.18)"
+        ]
+      },
+      "periwinkle": {
+        "role": "primary",
+        "displayName": "Periwinkle",
+        "tonalRamp": [
+          "oklch(15% 0.0828 274.66)",
+          "oklch(26% 0.0828 274.66)",
+          "oklch(38% 0.0828 274.66)",
+          "oklch(49% 0.0828 274.66)",
+          "oklch(61% 0.0828 274.66)",
+          "oklch(72% 0.0828 274.66)",
+          "oklch(84% 0.0828 274.66)",
+          "oklch(95% 0.0828 274.66)"
+        ]
+      },
+      "pad-ink": {
+        "role": "primary",
+        "displayName": "Pad Ink",
+        "tonalRamp": [
+          "oklch(15% 0.1370 266.65)",
+          "oklch(26% 0.1370 266.65)",
+          "oklch(38% 0.1370 266.65)",
+          "oklch(49% 0.1370 266.65)",
+          "oklch(61% 0.1370 266.65)",
+          "oklch(72% 0.1370 266.65)",
+          "oklch(84% 0.1370 266.65)",
+          "oklch(95% 0.1370 266.65)"
+        ]
+      },
+      "navy": {
+        "role": "neutral",
+        "displayName": "Navy",
+        "tonalRamp": [
+          "oklch(15% 0.0338 265.53)",
+          "oklch(26% 0.0338 265.53)",
+          "oklch(38% 0.0338 265.53)",
+          "oklch(49% 0.0338 265.53)",
+          "oklch(61% 0.0338 265.53)",
+          "oklch(72% 0.0338 265.53)",
+          "oklch(84% 0.0338 265.53)",
+          "oklch(95% 0.0338 265.53)"
+        ]
+      },
+      "moon-white": {
+        "role": "neutral",
+        "displayName": "Moon White",
+        "tonalRamp": [
+          "oklch(15% 0.0236 272.82)",
+          "oklch(26% 0.0236 272.82)",
+          "oklch(38% 0.0236 272.82)",
+          "oklch(49% 0.0236 272.82)",
+          "oklch(61% 0.0236 272.82)",
+          "oklch(72% 0.0236 272.82)",
+          "oklch(84% 0.0236 272.82)",
+          "oklch(95% 0.0236 272.82)"
+        ]
+      },
+      "muted-moon": {
+        "role": "neutral",
+        "displayName": "Muted Moon",
+        "tonalRamp": [
+          "oklch(15% 0.0395 269.39)",
+          "oklch(26% 0.0395 269.39)",
+          "oklch(38% 0.0395 269.39)",
+          "oklch(49% 0.0395 269.39)",
+          "oklch(61% 0.0395 269.39)",
+          "oklch(72% 0.0395 269.39)",
+          "oklch(84% 0.0395 269.39)",
+          "oklch(95% 0.0395 269.39)"
+        ]
+      },
+      "blue-container": {
+        "role": "primary",
+        "displayName": "Blue Container",
+        "tonalRamp": [
+          "oklch(15% 0.1057 266.76)",
+          "oklch(26% 0.1057 266.76)",
+          "oklch(38% 0.1057 266.76)",
+          "oklch(49% 0.1057 266.76)",
+          "oklch(61% 0.1057 266.76)",
+          "oklch(72% 0.1057 266.76)",
+          "oklch(84% 0.1057 266.76)",
+          "oklch(95% 0.1057 266.76)"
+        ]
+      },
+      "pale-moon": {
+        "role": "primary",
+        "displayName": "Pale Moon",
+        "tonalRamp": [
+          "oklch(15% 0.0361 273.70)",
+          "oklch(26% 0.0361 273.70)",
+          "oklch(38% 0.0361 273.70)",
+          "oklch(49% 0.0361 273.70)",
+          "oklch(61% 0.0361 273.70)",
+          "oklch(72% 0.0361 273.70)",
+          "oklch(84% 0.0361 273.70)",
+          "oklch(95% 0.0361 273.70)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Instruction",
+        "purpose": "Material headlineLarge with extra-bold override."
+      },
+      "action": {
+        "displayName": "Action label",
+        "purpose": "Material headlineSmall with bold override."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Native Material bodyLarge and bodyMedium roles; system font scaling."
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": []
+  },
+  "components": [
+    {
+      "name": "Action pad",
+      "kind": "button",
+      "description": "Browser preview translation of the native Material action pad; native sizing uses dp.",
+      "html": "<button class=\"ds-pad\"><svg aria-hidden=\"true\" width=\"48\" height=\"48\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5-3c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z\"/></svg><strong>Record</strong><span>Tap to start</span></button>",
+      "css": ".ds-pad { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; width:100%; min-height:180px; padding:24px; border:0; border-radius:32px; background:#284DDB; color:#FFFFFF; font-family:Roboto,Arial,sans-serif; cursor:pointer; } .ds-pad strong { font-size:24px; font-weight:700; line-height:32px; } .ds-pad span { font-size:14px; line-height:20px; } .ds-pad:hover { filter:brightness(.96); } .ds-pad:active { filter:brightness(.9); } .ds-pad:focus-visible { outline:3px solid #FFFFFF; outline-offset:-6px; }",
+      "refersTo": "action-pad"
+    },
+    {
+      "name": "Dark action pad",
+      "kind": "button",
+      "description": "Browser preview translation of the native Material action pad; native sizing uses dp.",
+      "html": "<button class=\"ds-pad-dark\"><svg aria-hidden=\"true\" width=\"48\" height=\"48\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5-3c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z\"/></svg><strong>Record</strong><span>Tap to start</span></button>",
+      "css": ".ds-pad-dark { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; width:100%; min-height:180px; padding:24px; border:0; border-radius:32px; background:#B8C5FF; color:#142978; font-family:Roboto,Arial,sans-serif; cursor:pointer; } .ds-pad-dark strong { font-size:24px; font-weight:700; line-height:32px; } .ds-pad-dark span { font-size:14px; line-height:20px; } .ds-pad-dark:hover { filter:brightness(.96); } .ds-pad-dark:active { filter:brightness(.9); } .ds-pad-dark:focus-visible { outline:3px solid #142978; outline-offset:-6px; }",
+      "refersTo": "action-pad-dark"
+    },
+    {
+      "name": "Tonal game button",
+      "kind": "button",
+      "description": "Browser preview translation of the full-width native game button.",
+      "html": "<button class=\"ds-tonal\">Pass to Player 2</button>",
+      "css": ".ds-tonal { width:100%; min-height:64px; border:0; border-radius:20px; padding:20px; background:#E0E7FF; color:#1A348B; font:700 16px/1.4 Roboto,Arial,sans-serif; cursor:pointer; } .ds-tonal:hover { filter:brightness(.96); } .ds-tonal:active { filter:brightness(.9); } .ds-tonal:focus-visible { outline:3px solid #1A348B; outline-offset:-6px; }",
+      "refersTo": "button-tonal"
+    },
+    {
+      "name": "Reveal game button",
+      "kind": "button",
+      "description": "Browser preview translation of the full-width native game button.",
+      "html": "<button class=\"ds-reveal\">Play the reveal</button>",
+      "css": ".ds-reveal { width:100%; min-height:64px; border:0; border-radius:20px; padding:20px; background:#284DDB; color:#FFFFFF; font:400 22px/1.4 Roboto,Arial,sans-serif; cursor:pointer; } .ds-reveal:hover { filter:brightness(.96); } .ds-reveal:active { filter:brightness(.9); } .ds-reveal:focus-visible { outline:3px solid #FFFFFF; outline-offset:-6px; }"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "description": "Browser preview translation of native Material TextButton supporting actions.",
+      "html": "<button class=\"ds-text\">Record again</button>",
+      "css": ".ds-text { min-height:48px; border:0; border-radius:24px; padding:10px 12px; background:transparent; color:#284DDB; font:500 14px/20px Roboto,Arial,sans-serif; cursor:pointer; } .ds-text:hover { background:#E0E7FF; } .ds-text:active { background:#B8C5FF; } .ds-text:focus-visible { outline:2px solid #284DDB; outline-offset:2px; }"
+    },
+    {
+      "name": "Turn progress",
+      "kind": "custom",
+      "description": "Noninteractive native progress strip translated to HTML; no hover or active state.",
+      "html": "<div class=\"ds-progress\" role=\"group\" aria-label=\"Step 1 of 3\"><span class=\"ds-current\">1. Sing</span><span>2. Copy</span><span>3. Reveal</span></div>",
+      "css": ".ds-progress { display:flex; gap:12px; font:500 14px/20px Roboto,Arial,sans-serif; color:#526080; } .ds-progress span { flex:1; padding-top:12px; border-top:4px solid #E0E7FF; } .ds-progress .ds-current { color:#284DDB; border-color:#284DDB; font-weight:700; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Party-Game Controller",
+    "overview": "A television party-game controller translated into native Android Material 3: confident type, a generous action pad, and a calm cool field. Friendly instruction copy and a clear current-player label make the phone easy to pass between players.\n\nThe system uses native controls, typography, feedback, and system insets. Brand expression comes from the blue palette, bold hierarchy, and rounded pads. This record describes `MainActivity.kt` and the rendered light and dark screens in `app/build/ui-check`.",
+    "keyCharacteristics": [
+      "One visually dominant next action.",
+      "Cobalt and ice in light mode; periwinkle and navy in dark mode.",
+      "Bold Material type and large, rounded controls.",
+      "A compact three-step progress strip."
+    ],
+    "rules": [
+      {
+        "name": "The Semantic Pair Rule",
+        "body": "Apply each container with its corresponding on-color through `MaterialTheme.colorScheme`, including the dark scheme.",
+        "section": "colors"
+      },
+      {
+        "name": "The Native Scale Rule",
+        "body": "Use Material typography roles and sp-based font scaling; retain wrapping and vertical scrolling as text grows.",
+        "section": "typography"
+      },
+      {
+        "name": "The Next Action Rule",
+        "body": "Keep the current task visually dominant. Show replay, re-record, and continuation controls when the recorded state makes them useful.",
+        "section": "layout"
+      }
+    ],
+    "dos": [
+      "**Do** pair Material color roles in both light and dark themes.",
+      "**Do** keep one dominant next action and expose supporting controls as the turn develops.",
+      "**Do** preserve native typography, semantic state, system insets, and scrolling at large text sizes."
+    ],
+    "donts": [
+      "**Don't** replace native interaction feedback with custom decorative effects.",
+      "**Don't** use color alone to communicate recording or playback; retain status and Stop labels.",
+      "**Don't** turn the progress strip into interactive navigation without changing its semantics and behavior."
+    ]
+  }
+}
