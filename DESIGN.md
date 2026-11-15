@@ -73,7 +73,8 @@ The system uses native controls, typography, feedback, and system insets. Brand 
 - One visually dominant next action.
 - Cobalt and ice in light mode; periwinkle and navy in dark mode.
 - Bold Material type and large, rounded controls.
-- A compact three-step progress strip.
+- A fixed bottom dock: Redo, mic, next.
+- Player 1 is blue; Player 2 is amber.
 
 ## Colors
 
@@ -125,21 +126,21 @@ The game surface is flat at rest. Solid color and tonal contrast separate contro
 
 ## Shapes
 
-Broad rounded rectangles carry the controller metaphor. Action pads use the largest radius; supporting filled and tonal controls use the smaller control radius. Progress is a thin rounded bar. Icons are Android vector drawables, with a 48dp icon in the main pad.
+Broad rounded rectangles carry the controller metaphor. The mic and play controls are circles; cards use a 16dp radius and buttons the Material defaults. Icons are Android vector drawables.
 
 ## Components
 
-### Action pad
+### Dock
+A fixed bottom bar on every turn screen: Redo or Copy again (left), a 76dp round main action (center: mic, Stop, or play/stop) and the next step (right). Positions never change. A disabled next step names what is missing ("Record first"). While recording, the mic becomes a red Stop.
 
-The filled pad spans the content width, has a minimum height of 180dp, and uses 24dp internal padding. Icon, label, and status form a centered stack with 12dp gaps. It represents recording, backwards playback, or reveal according to the turn. Active recording changes to Material error colors and Stop wording; playback also exposes Stop. Busy states disable incompatible actions. Status is exposed as a semantic state description.
+### Sound cards
+Each recording is a bordered card with a title, duration, level bars and its own play buttons. Empty cards are dashed. A playing card gets a 2dp primary border and a red playhead; a recording card gets an error border and a live timer.
 
-### Supporting controls
+### Handoff
+A full-screen amber screen (Player 2's color) with one dark button that starts Player 2's turn and plays the sound.
 
-Filled and tonal game buttons span the column, use a minimum height of 64dp and 20dp padding. Filled identifies the reveal playback action; tonal supports passing the phone, replaying the challenge, and comparison playback. Text buttons carry navigation, re-record, normal playback, retry, and reset. Keep Material interaction and disabled states.
-
-### Turn progress
-
-Three labeled segments mark Sing, Copy, Reveal. Bars are 4dp high; completed and current bars use primary. Future bars use primary-container. Current text is primary and bold; other labels use the muted foreground. The row supplies the current position as a semantic state description; it is progress, not a tab bar.
+### Guess and reveal
+Guess shows Player 2's copy played backwards, an amber hint panel, and a locked "Player 1's original" card. "Lock in guess" opens a confirm dialog; only then does the Reveal screen play the original. On both screens the center dock button plays or stops that screen's main sound.
 
 ### Feedback and confirmation
 
@@ -157,4 +158,4 @@ Short audio or permission failures appear in a Material snackbar. Clearing both 
 
 - **Don't** replace native interaction feedback with custom decorative effects.
 - **Don't** use color alone to communicate recording or playback; retain status and Stop labels.
-- **Don't** turn the progress strip into interactive navigation without changing its semantics and behavior.
+- **Don't** move or repurpose dock positions between screens; change the label instead.
